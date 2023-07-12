@@ -1,6 +1,6 @@
-# The qword kernel
+# The Qword2 kernel
 
-[![goto counter](https://img.shields.io/github/search/qword-os/qword/goto.svg)](https://github.com/qword-os/qword/search?q=goto)
+[![goto counter](https://img.shields.io/github/search/qword-os2/qword/goto.svg)](https://github.com/qword-os2/qword/search?q=goto)
 
 ![Reference screenshot](/screenshot.png?raw=true "Reference screenshot")
 
@@ -15,7 +15,7 @@ You're free to check out the code, fork it, and all that, as long as the license
 
 # Moving on
 As the name implies, this is just the kernel. To build the whole system, follow the
-instructions at <https://github.com/qword-os/build>.
+instructions at <https://github.com/qword-os2/build>.
 
 ## Build requirements
 
@@ -34,7 +34,7 @@ These are the tools needed for the build:
 
 ```bash
 # Clone repo wherever you like and enter.
-git clone https://github.com/qword-os/qword.git
+git clone https://github.com/qword-os2/qword.git
 cd qword
 # Make the kernel, you can replace the 4 in -j4 with your number of cores + 1.
 make clean && make -j4
